@@ -8,7 +8,7 @@ I was given the training data and a main.py file with a few functions I should n
 
 For my submission, I created a relatively small transformer model. The encoder and decoder blocks each had one layer to keep the number of parameters under the limit (as in, I didn't stack encoders/decoders as is common for larger models). The self-attention blocks in the encoder and decoder each had 8 heads. I tokenized inputs and outputs at the character level, except for [cos, sin, tan] which were each their own token.
 
-My model achieves 80% accuracy on the validation set. I do not have the final test set, so I don't know the final performance of the model. However, I know my performance on the test set was > 0.70 (the benchmark to pass).
+My model achieves 80% accuracy on the validation set. I do not have the final test set, so I don't know the final performance of the model. However, I know my performance on the test set was > 0.70 (the benchmark to pass the challenge).
 
 ### Citations
 
